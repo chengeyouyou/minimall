@@ -1,0 +1,15 @@
+/* pages/home/dk-recommend/dk-recommend.wxss */
+.recommend{
+  display: flex;
+  margin-top: 5px;
+  border-bottom: 5px solid #ffcccc;
+}
+
+.r-img{
+  width: 160rpx;
+}
+
+.r-title{
+  font-size: 30rpx;
+  color: #ff5777;
+}

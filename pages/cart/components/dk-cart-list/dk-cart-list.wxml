@@ -1,0 +1,9 @@
+<!--pages/cart/components/dk-cart-list/dk-cart-list.wxml-->
+
+<view class="wrap">
+  <block wx:for="{{cartList}}" wx:key="index">
+    <dk-cart-item  item="{{item}}" bind:checkClick="checkClick" data-index="{{index}}"/>
+  </block>
+</view>
+
+

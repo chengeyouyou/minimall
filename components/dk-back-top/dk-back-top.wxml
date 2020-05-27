@@ -1,0 +1,4 @@
+<!--components/dk-back-top/dk-back-top.wxml-->
+<view bindtap="imgclick">
+  <image src="/assets/images/common/top.png" mode="widthFix" class="top" />
+</view>

@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "dk-swiper":"/components/dk-swiper/dk-swiper",
+    "dk-recommend":"./components/dk-recommend/dk-recommend",
+    "dk-popular":"./components/dk-popular/dk-popular",
+    "dk-tab-control":"/components/dk-tab-control/dk-tab-control",
+    "dk-goods":"/components/dk-goods/dk-goods",
+    "dk-back-top":"/components/dk-back-top/dk-back-top"
+  },
+  "navigationBarTitleText": "购物街",
+  "backgroundColor": "#ff5777",
+  "onReachBottomDistance":100
+}

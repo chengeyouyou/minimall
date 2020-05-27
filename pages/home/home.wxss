@@ -1,0 +1,21 @@
+/* pages/home/home.wxss */
+
+.top{
+  position: fixed;
+  right: 20rpx;
+  bottom: 0rpx;
+  width: 80rpx;
+}
+
+.tab-control-hidden{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.swiper{
+  height: 360rpx;
+}

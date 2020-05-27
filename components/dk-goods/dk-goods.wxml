@@ -1,0 +1,7 @@
+<!--pages/home/components/dk-goods/dk-goods.wxml-->
+<view class="title" wx:if="{{showTitle}}">商品推荐</view>
+<view  class="wrap">
+  <block wx:for="{{goods}}" wx:key="index">
+    <dk-goods-item item="{{item}}" class="item"/>
+  </block>
+</view>

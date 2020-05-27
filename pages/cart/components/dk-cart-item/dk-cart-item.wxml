@@ -1,0 +1,27 @@
+<!--pages/cart/components/dk-cart-item/dk-cart-item.wxml-->
+<view class="wrap">
+  <view class="item">
+    <view class="status">
+      <checkbox-group bindchange="check">
+        <checkbox color="#ff5777" checked="{{item.checked ? 'checked' : ''}}"></checkbox>
+      </checkbox-group>
+    </view>
+    <view class="info">
+      <view  class="img">
+          <image src="{{item.imageURL}}" mode="widthFix"></image>
+      </view>
+      <view class="content">
+        <view class="title">{{item.title}}</view>
+        <view class="desc">{{item.desc}}</view>
+        <view class="price-count">
+          <view class="price">￥{{item.price}}</view>
+          <view class="count">
+            <text class="button {{isAddButtonPress ? 'press' : 'default'}}" bind:touchstart="addtouchstart" bind:touchend="addtouchend" bindtap="add">+</text>
+            <text class="count2">{{item.count}}</text>
+            <text class="button {{isMinusButtonPress ? 'press' : 'default'}}" bind:touchstart="minustouchstart" bind:touchend="minustouchend" bindtap="minus">-</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view> 
+</view>

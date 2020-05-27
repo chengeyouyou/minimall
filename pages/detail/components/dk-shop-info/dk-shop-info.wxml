@@ -1,0 +1,45 @@
+<!--pages/detail/components/dk-shop-info/dk-shop-info.wxml-->
+<view class="wrap">
+  <view class="header">
+    <image src="{{shopInfo.logo}}"  class="logo" mode="widthFix"></image>
+    <text class="name">{{shopInfo.name}}</text>
+  </view>
+  <view class="detail">
+    <view class="left">
+      <view class="sell-acount">
+       <view>
+          {{shopInfo.sells}}
+       </view>
+       <view>
+        总销量
+       </view>
+      </view>
+      <view class="goods">
+        <view>
+        {{shopInfo.goodsCount}}
+        </view>
+        <view>
+        全部宝贝
+        </view>
+      </view>
+    </view>
+    <view class="right">
+      <block wx:for="{{shopInfo.score}}"  wx:key="index">
+          <view class="row">
+            <view class="desc">
+              {{item.name}}
+            </view>
+            <view class="score {{item.isBetter ? 'good' : 'bad'}}">
+              {{item.score}}
+            </view>
+            <view class="level {{item.isBetter ? 'good' : 'bad'}}">
+              {{item.isBetter ? '高' : '低'}}
+            </view>
+          </view>
+      </block>
+    </view>
+  </view>
+  <view class="shop">
+      <button size="mini" >进店逛逛</button>
+  </view>
+</view>

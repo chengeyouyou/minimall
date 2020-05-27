@@ -1,0 +1,33 @@
+/* pages/profile/components/dk-base-info/dk-base-info.wxss */
+
+.wrap{
+  display: flex;
+  height: 180rpx;
+  border-bottom: 20rpx solid rgba(0, 0, 0, 0.04);
+  text-align: center;
+}
+
+.wrap .rest,
+.wrap .discount,
+.wrap .score{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 28rpx;
+}
+.wrap .rest>view:first-child,
+.wrap .discount>view:first-child,
+.wrap .score>view:first-child{
+  margin-bottom: 10rpx;
+}
+
+.wrap .discount{
+  border-left: 1px solid rgba(0, 0, 0, 0.04);
+  border-right: 1px solid rgba(0, 0, 0, 0.04);
+
+}
+
+.item{
+  color: #ff5777;
+}

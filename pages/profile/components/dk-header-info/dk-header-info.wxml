@@ -1,0 +1,16 @@
+<!--pages/profile/components/dk-header-info/dk-header-info.wxml-->
+<view class="wrap">
+  <view class="header">
+    <image mode="widthFix" src="/assets/images/profile/avatar.png"></image>
+  </view>
+  <view class="login">
+    <view>登录/注册</view>
+    <view class="phone">
+      <image mode="width" src="/assets/images/profile/phone.png"></image>
+      <text>暂无绑定手机</text>
+    </view>
+  </view>
+  <view class="more">
+    <image mode="widthFix" src="/assets/images/common/arrow-right.png"></image>
+  </view>
+</view>

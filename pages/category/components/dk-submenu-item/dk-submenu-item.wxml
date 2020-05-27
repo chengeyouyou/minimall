@@ -1,0 +1,7 @@
+<!--pages/category/components/dk-submenu-item/dk-submenu-item.wxml-->
+<view class="wrap" bind:tap="itemClick">
+  <image src="{{item.image}}" mode="widthFix" class="img"></image>
+  <view class="title">
+    {{item.title}}
+  </view>
+</view>

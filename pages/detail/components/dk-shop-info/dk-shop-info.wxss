@@ -1,0 +1,72 @@
+/* pages/detail/components/dk-shop-info/dk-shop-info.wxss */
+
+.wrap{
+  padding:20rpx 10rpx;
+}
+.wrap .header{
+  padding: 10rpx 0;
+}
+.wrap .header .logo{
+  width: 80rpx;
+  margin-right: 12rpx;
+  vertical-align: middle;
+}
+
+.wrap .detail{
+  display: flex;
+  margin: 40rpx 0;
+  text-align: center;
+}
+.wrap .detail>view{
+  flex: 1;
+}
+.wrap .detail .left{
+  display: flex;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 28rpx;
+}
+.wrap .detail .left>view{
+  flex: 1;
+}
+.wrap .detail .left>view>view:first-child{
+  padding-bottom: 10rpx;
+}
+.wrap .detail .right .row{
+  display: flex;
+  font-size: 24rpx;
+}
+.wrap .detail .right .row>view{
+  flex:1;
+  padding: 2rpx 0;
+}
+.wrap .detail .right .row .desc{
+  flex:2;
+}
+
+.wrap .detail .right .row .good{
+  color: #ff5777;
+}
+
+.wrap .detail .right .row .bad{
+  color:  #5ea732;
+}
+
+.wrap .shop {
+  text-align:  center;
+  padding: 40rpx 0;
+  border-bottom: 10rpx solid rgba(0, 0, 0, 0.05);
+}
+
+.wrap .shop button{
+  line-height: 2.3;
+  font-size: 28rpx;
+  padding: 5rpx 100rpx;
+}
+
+
+
+
+
+
+
+

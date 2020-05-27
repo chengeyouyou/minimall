@@ -1,0 +1,4 @@
+<!--pages/home/components/dk-popular/dk-popular.wxml-->
+<view class="wrap">
+  <image src="/assets/images/home/popular.jpg" mode="widthFix" class="img"/>
+</view>

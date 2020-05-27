@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "dk-cart-item": "../dk-cart-item/dk-cart-item"
+  }
+}

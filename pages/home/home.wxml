@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图 -->
+<dk-swiper banners="{{banner}}" swiper="swiper"/>
+<!-- 好友推荐 -->
+<dk-recommend recommend="{{recommend}}"/>
+<!-- 本周流行 -->
+<dk-popular/>
+<!-- tab栏-> -->
+<dk-tab-control id="tab-control" cates="{{cates}}" bind:item_click="handlecate" class="{{isTabControlFixed ? 'tab-control-hidden' : ''}}"/> 
+<dk-tab-control cates="{{cates}}" bind:item_click="handlecate" wx:if="{{isTabControlFixed}}"/>
+<!-- 商品 -->
+<dk-goods goods="{{goods[active_cate]['list']}}"/>
+<!-- 回到顶部icon -->
+<dk-back-top top="top" wx:if="{{isShow}}" bind:topClick="topClick"/>
+

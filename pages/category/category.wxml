@@ -1,0 +1,6 @@
+<!--pages/category/category.wxml-->
+
+<view class="container">
+  <dk-menu  class="menu" cates="{{cates}}" bind:submenu="menuclick"/>
+  <dk-submenu class="submenu" subCates="{{subCates}}" categoryDetail="{{categoryDetail}}"/>
+</view>

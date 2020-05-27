@@ -1,0 +1,6 @@
+<!--components/dk-tab-control/dk-tab-control.wxml-->
+<view class="tab-control">
+<block wx:for="{{cates}}" wx:key="index">
+  <view class="tab-control-item {{active == index ? 'active' : ''}}" bindtap="clicktab" data-index="{{index}}">{{item.title}}</view>
+</block>
+</view>

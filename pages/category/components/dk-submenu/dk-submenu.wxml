@@ -1,0 +1,15 @@
+<!--pages/category/components/dk-submenu/dk-submenu.wxml-->
+<!-- scroll-view不能直接使用flex布局，得在里面在包裹一层，在这一层上使用flex布局 -->
+<scroll-view
+  scroll-y
+  class="scroll"
+>
+  <view class="container">
+    <view class="submenu">
+        <block  wx:for="{{subCates}}" wx:key="index">
+          <dk-submenu-item item="{{item}}" class="item"/>
+        </block>
+    </view>
+    <dk-goods goods="{{categoryDetail}}" />
+  </view>
+</scroll-view>

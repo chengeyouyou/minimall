@@ -1,0 +1,4 @@
+/* components/dk-swiper/dk-swiper.wxss */
+.swiper-image{
+   width: 100%;
+}

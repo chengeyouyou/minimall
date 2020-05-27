@@ -1,0 +1,28 @@
+/* pages/profile/components/dk-func-info/dk-func-info.wxss */
+.wrap{
+  font-size: 28rpx;
+}
+
+.wrap .module1 .msg image,
+.wrap .module1 .mall image,
+.wrap .module1 .customer image,
+.wrap .module2 .myCart image,
+.wrap .module2 .app image
+{
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+
+.wrap .module1{
+  border-bottom: 20rpx solid rgba(0, 0, 0, 0.04);
+}
+
+.wrap .module1>view,
+.wrap .module2>view{
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 20rpx;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+} 

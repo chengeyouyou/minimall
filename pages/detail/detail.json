@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "dk-bottom-bar":"./components/dk-bottom-bar/dk-bottom-bar",
+    "dk-swiper":"/components/dk-swiper/dk-swiper",
+    "dk-base-info":"./components/dk-base-info/dk-base-info",
+    "dk-shop-info":"./components/dk-shop-info/dk-shop-info",
+    "dk-detail-info":"./components/dk-detail-info/dk-detail-info",
+    "dk-back-top":"/components/dk-back-top/dk-back-top",
+    "dk-params-info":"./components/dk-params-info/dk-params-info",
+    "dk-comment-info":"./components/dk-comment-info/dk-comment-info",
+    "dk-goods":"/components/dk-goods/dk-goods"
+  },
+  "navigationBarTitleText": "商品详情"
+}

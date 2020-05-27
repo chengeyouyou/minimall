@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "dk-menu": "./components/dk-menu/dk-menu",
+    "dk-submenu": "./components/dk-submenu/dk-submenu"
+  },
+  "navigationBarTitleText": "商品分类"
+}

@@ -1,0 +1,59 @@
+/* pages/detail/components/dk-base-info/dk-base-info.wxss */
+
+.wrap{
+  font-size: 28rpx;
+  padding: 20rpx 10rpx;
+}
+.wrap .price{
+  margin-top: 10rpx;
+}
+.wrap .price .newPrice{
+  font-size: 32rpx;
+  color: #ff5777;
+  margin-right: 10rpx;
+}
+.wrap .price .oldPrice{
+  font-size: 20rpx;
+  margin-right: 10rpx;
+  text-decoration: line-through;
+}
+.wrap .price .discount{
+  display: inline-block;
+  font-size: 20rpx;
+  background-color: #ff5777;
+  color: #fff;
+  padding: 4rpx;
+  border-radius: 10rpx;
+  vertical-align: 10rpx;
+}
+.wrap .sell{
+  display: flex;
+  margin-top: 10rpx;
+  border-bottom: 2rpx solid rgba(0, 0, 0, .2);
+  padding-bottom: 10rpx;
+  justify-content: space-between;
+  font-size: 22rpx;
+}
+.wrap .service{
+  display: flex;
+  margin-top: 10rpx;
+  font-size: 22rpx;
+  padding: 40rpx 0;
+  border-bottom: 10rpx solid rgba(0, 0, 0, 0.03);
+  flex-wrap: wrap;
+}
+.wrap .service .item{
+  width: calc(100% / 3);
+  text-align: center;
+  margin-top: 10rpx;
+}
+
+.wrap .service .item .icon{
+  width: 25rpx;
+  margin-right: 8rpx;
+  position: relative;
+  top: 4rpx
+}
+
+
+

@@ -1,0 +1,45 @@
+/* pages/detail/components/dk-comment-info/dk-comment-info.wxss */
+.wrap{
+  padding: 40rpx 30rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+
+.wrap .header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20rpx 0;
+}
+
+.wrap .content .user{
+  margin: 30rpx 0;
+}
+.wrap .content .user image{
+  width: 80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.wrap .content .comment{
+  text-indent: 2em;
+  margin-bottom: 10rpx;
+}
+.wrap .content .goods{
+  font-size: 26rpx;
+}
+
+.wrap .content .goods .desc{
+  margin-bottom: 10rpx;
+}
+.wrap .content .goods .img image{
+  width: 200rpx;
+  margin-right: 20rpx;
+}
+
+
+
+
+
+
+

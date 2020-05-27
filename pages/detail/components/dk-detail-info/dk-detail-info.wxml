@@ -1,0 +1,20 @@
+<!--pages/detail/components/dk-detail-info/dk-detail-info.wxml-->
+<view class="wrap">
+    <view class="header">
+      <view class="start line"></view>
+      <view>{{detailInfo.desc}}</view>
+      <view  class="end line"></view>
+    </view>
+    <view class="content">
+      <block wx:for="{{detailInfo.detailImage}}" wx:key="index">
+        <view>
+          <view>{{item.key}}</view>
+          <block wx:for="{{item.list}}" wx:key="index" >
+            <image src="{{item}}" mode="widthFix" style="width:100%"></image>
+          </block>
+        </view>
+      </block>
+    </view>
+    
+
+</view>

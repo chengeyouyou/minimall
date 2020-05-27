@@ -1,0 +1,6 @@
+<!--pages/home/dk-recommend/dk-recommend.wxml-->
+<view class="recommend">
+  <block wx:for="{{recommend}}" wx:key="index">
+    <dk-recommend-item info="{{item}}" img="r-img" title="r-title" bind:tap="clickRecommend" data-link="{{item.link}}"/>
+  </block>
+</view>

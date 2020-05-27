@@ -1,0 +1,26 @@
+<!--pages/detail/components/dk-comment-info/dk-comment-info.wxml-->
+<view class="wrap">
+  <view class="header">
+    <view>用户评论</view>
+    <view>更多>></view>
+  </view>
+  <view class="content">
+    <view class="user">
+      <image src="{{commentInfo.user.avatar}}" mode="widthFix"></image>
+      <text>{{commentInfo.user.uname}}</text>
+    </view>
+    <view class="comment">
+      {{commentInfo.content}}
+    </view>
+    <view class="goods">
+      <view class="desc">
+        {{commentInfo.created}} {{commentInfo.style}}
+      </view>
+      <view class="img">
+        <block wx:for="{{commentInfo.images}}" wx:key="index">
+          <image mode="widthFix" src="{{item}}"></image>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>

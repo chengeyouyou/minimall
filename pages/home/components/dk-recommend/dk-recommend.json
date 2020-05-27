@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "dk-recommend-item":"../dk-recommend-item/dk-recommend-item"
+  }
+}

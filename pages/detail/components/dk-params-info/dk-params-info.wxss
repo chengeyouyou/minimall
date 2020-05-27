@@ -1,0 +1,22 @@
+/* pages/detail/components/dk-params-info/dk-params-info.wxss */
+
+.wrap{
+  padding: 40rpx 30rpx;
+  font-size: 30rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+
+}
+.wrap .row{
+  display: flex;
+  padding: 30rpx 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  font-size:30rpx;
+}
+.wrap .row>view{
+  flex: 1;
+}
+
+.wrap .row .info{
+  flex: 4;
+  color: #ff5777;
+}

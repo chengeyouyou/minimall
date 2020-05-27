@@ -1,0 +1,7 @@
+<!--pages/cart/cart.wxml-->
+<scroll-view class="cartList"
+  scroll-y
+>
+  <dk-cart-list cartList="{{cartList}}" bind:checkClick="checkClick" goodsTotal="{{goodsTotal}}"/>
+  <dk-bottom-bar total="{{goodsTotal}}" bind:allCheck="allCheck"/>
+</scroll-view>

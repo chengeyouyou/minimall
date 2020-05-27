@@ -1,0 +1,36 @@
+/* pages/home/components/dk-goods-item/dk-goods-item.wxss */
+
+.wrap{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 10rpx;
+  margin-top: 20rpx;
+}
+
+.wrap .image{
+  width: 100%;
+}
+.wrap .info{
+  margin-top: 5rpx;
+  width: 100%;
+  height: 80rpx;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.wrap .info .title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wrap .info .price{
+  color: #ff5777;
+}
+
+.wrap .info .coll{
+  width: 16px;
+  vertical-align: bottom;
+  margin-left: 10rpx;
+}

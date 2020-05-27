@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "dk-cart-list":"./components/dk-cart-list/dk-cart-list",
+    "dk-bottom-bar":"./components/dk-bottom-bar/dk-bottom-bar"
+  },
+  "navigationBarTitleText": "购物车"
+}

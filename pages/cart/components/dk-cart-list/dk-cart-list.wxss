@@ -1,0 +1,63 @@
+/* pages/cart/components/dk-cart-list/dk-cart-list.wxss */
+
+.wrap .item{
+  height: 280rpx;
+  display: flex;
+  padding:30rpx 0;
+}
+
+.wrap .item .status{
+  width: 10%;
+  box-sizing: border-box;
+  text-align: right;
+  line-height: 280rpx;
+}
+
+.wrap .item .info{
+  width: 90%;
+  display: flex;
+}
+.wrap .item .info .img{
+  width: 30%;
+}
+
+.wrap .item .info .img image{
+  width:100%;
+  border-radius: 20rpx;
+}
+
+.wrap .item .info .content{
+  width: 70%;
+  padding: 0 20rpx;
+}
+.wrap .item .info .content>view{
+  margin: 30rpx 0;
+}
+.wrap .item .info .content .title{
+  font-weight: bold;
+}
+
+.wrap .item .info .content .desc{
+  font-size: 24rpx;
+}
+
+.wrap .item .info .content .title,
+.wrap .item .info .content .desc
+{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.wrap .item .info .content .price-count{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.wrap .item .info .content .price-count .price{
+  color: #ff5777;
+}
+
+
+

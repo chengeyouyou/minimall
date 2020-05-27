@@ -1,0 +1,5 @@
+<!--pages/home/dk-recommend-item/dk-recommend-item.wxml-->
+<view class="wrap">
+    <image src="{{info.image}}" mode="widthFix" class="img title"></image>
+    <view class="title">{{info.title}}</view>
+</view>

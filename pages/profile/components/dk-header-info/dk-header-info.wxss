@@ -1,0 +1,51 @@
+/* pages/profile/components/dk-header-info/dk-header-info.wxss */
+.wrap{
+  display: flex;
+  height: 200rpx;
+  background-color: #ff5777;
+  padding: 12rpx 30rpx;
+}
+
+.wrap .header{
+  width: 120rpx;
+  padding-top: 30rpx;
+}
+
+.wrap .header image{
+  width: 100%;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.wrap .login{
+  flex: 3;
+  margin-left: 20rpx;
+  color: #fff;
+  font-size: 28rpx;
+  padding-top: 50rpx;
+}
+
+.wrap .login .phone{
+  font-size: 22rpx;
+  margin-top: 10rpx;
+}
+
+.wrap .login .phone image{
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+
+.wrap .more{
+  flex: 1;
+  position: relative;
+}
+
+.wrap .more image{
+  width: 50rpx;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto auto
+}

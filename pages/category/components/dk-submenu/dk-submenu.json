@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "dk-submenu-item":"../dk-submenu-item/dk-submenu-item",
+    "dk-goods":"/components/dk-goods/dk-goods"
+  }
+}

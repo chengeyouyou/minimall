@@ -1,0 +1,24 @@
+<!--pages/detail/components/dk-params-info/dk-params-info.wxml-->
+
+<view class="wrap"> 
+  <block wx:for="{{paramsInfo.sizes[0]}}" wx:key="index">
+    <view class="row">
+      <block wx:for="{{item}}" wx:for-item="info" wx:for-index="key"  wx:key="key">
+        <view>
+          {{info}}
+        </view>
+      </block>
+    </view>
+  </block>
+
+  <block wx:for="{{paramsInfo.infos}}" wx:key="index">
+    <view class="row">
+      <view>
+        {{item.key}}
+      </view>
+      <view class="info">
+        {{item.value}}
+      </view>
+    </view>
+  </block>
+</view>

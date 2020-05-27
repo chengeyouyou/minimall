@@ -1,0 +1,10 @@
+/* pages/home/dk-recommend-item/dk-recommend-item.wxss */
+.wrap{
+  text-align: center;
+  flex: 1;
+  padding: 15rpx;
+}
+
+.wrap  .title{
+  margin-top: 10rpx;
+}

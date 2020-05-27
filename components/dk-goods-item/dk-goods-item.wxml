@@ -1,0 +1,12 @@
+<!--pages/home/components/dk-goods-item/dk-goods-item.wxml-->
+
+<view class="wrap" bind:tap="itemClick">
+    <image class="image" src="{{item.show.img || item.img || item.image}}" mode="widthFix" ></image>
+  
+    <view class="info">
+      <view class="title">{{item.title}}</view>
+      <text class="price">{{item.price}}</text>
+      <image class='coll' src="/assets/images/common/favor.png" mode="widthFix"/>
+      <text>{{item.cfav}}</text>
+    </view>
+</view>

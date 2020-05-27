@@ -1,0 +1,12 @@
+/* pages/category/components/dk-submenu-item/dk-submenu-item.wxss */
+.wrap{
+  text-align: center;
+}
+
+.wrap .img{
+  width: 100%;
+}
+
+.wrap .title{
+  margin-top: 10rpx;
+}

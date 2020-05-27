@@ -1,0 +1,20 @@
+<!--pages/detail/detail.wxml-->
+<scroll-view
+  scroll-y
+  class="scroll-view"
+  enable-back-to-top
+  scroll-top="{{topNum}}"
+  bindscroll="onScroll"
+>
+  <dk-swiper banners="{{topImages}}" swiper="swiper"/>
+  <dk-base-info baseInfo="{{goodsBaseInfo}}"/>
+  <dk-shop-info shopInfo="{{shopInfo}}"/>
+  <dk-detail-info detailInfo="{{detailInfo}}"/>
+  <dk-params-info paramsInfo="{{paramInfo}}"/>
+  <dk-comment-info commentInfo="{{commentInfo}}"/>
+  <dk-goods goods="{{recommend}}" showTitle="{{true}}"/>
+
+</scroll-view>
+<dk-bottom-bar bind:addCart="addCart"/>
+<dk-back-top top="top" wx:if="{{isShow}}" bind:topClick="topClick"/>
+

@@ -1,0 +1,27 @@
+<!--pages/detail/components/dk-base-info/dk-base-info.wxml-->
+<view class="wrap">
+  <view class="title">
+    {{baseInfo.title}}
+  </view>
+
+  <view class="price">
+    <text class="newPrice">{{baseInfo.newPrice}}</text>
+    <text class="oldPrice">{{baseInfo.oldPrice}}</text>
+    <text class="discount">{{baseInfo.discount}}</text>
+  </view>
+
+  <view class="sell">
+    <block wx:for="{{baseInfo.columns}}" wx:key="index">
+     <text>{{item}}</text>
+    </block>
+  </view>
+
+   <view class="service">
+    <block wx:for="{{baseInfo.services}}" wx:key="index" >
+      <view class="item">
+        <image src="//s11.mogucdn.com/p1/160607/upload_ie4tkmbtgqztomjqhezdambqgqyde_44x44.png" mode="widthFix" class="icon"></image>
+        <text class="title">{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+</view>

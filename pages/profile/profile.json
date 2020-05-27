@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "dk-header-info":"./components/dk-header-info/dk-header-info",
+    "dk-base-info":"./components/dk-base-info/dk-base-info",
+    "dk-func-info":"./components/dk-func-info/dk-func-info"
+  },
+  "navigationBarTitleText": "我的信息"
+}

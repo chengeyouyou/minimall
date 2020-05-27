@@ -1,0 +1,8 @@
+/* pages/home/components/dk-popular/dk-popular.wxss */
+.wrap{
+  margin-bottom: 10rpx;
+}
+
+.wrap .img{
+  width: 100%;
+}

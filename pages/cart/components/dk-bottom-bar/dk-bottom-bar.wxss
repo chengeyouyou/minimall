@@ -1,0 +1,29 @@
+/* pages/cart/components/dk-bottom-bar/dk-bottom-bar.wxss */
+
+.bar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  display: flex;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.bar .status{
+  flex:1;
+  padding-left: 10rpx;
+}
+
+.bar .total{
+  flex: 2;
+}
+
+.bar .pay{
+  flex: 1;
+  background-color: #ff5777;
+  color: #fff;
+  text-align: center;
+}
